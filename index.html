@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modul Coding Islami</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <main id="content overlay">
+        <!-- Daftar Isi -->
+        <section id="daftar-isi" class="fade-in">
+            <h1>DAFTAR ISI MODUL</h1>
+            <ul class="modul-list">
+                <li style="background-color: #DBEAFE;" onclick="showBab(1)">📿 Bab 1: Teknologi Itu Amanah</li>
+                <li style="background-color: #DCFCE7;" onclick="showBab(2)">💻 Bab 2: Apa Itu Coding?</li>
+                <li style="background-color: #FED7AA;" onclick="showBab(3)">🎮 Bab 3: Belajar Scratch</li>
+                <li style="background-color: #E9D5FF;" onclick="showBab(4)">🐍 Bab 4: Python Dasar</li>
+                <li style="background-color: #FCE7F3;" onclick="showBab(5)">🌟 Bab 5: Proyek Kreatif</li>
+                <li style="background-color: #FEF9C3;" onclick="showBab(6)">🧠 Bab 6: Evaluasi & Refleksi</li>
+                <li style="background-color: #E0E7FF;" onclick="showBab(7)">🎓 Bab 7: Showcase & Sertifikasi</li>
+                <li style="background-color: #CCFBF1;" onclick="showBab(8)">📎 Bab 8: Penutup & Lampiran</li>
+            </ul>
+        </section>
+
+        <!-- Bab 1 -->
+        <section id="bab1" class="hidden fade-in">
+            <h2 >Bab 1: Teknologi Itu Amanah</h2>
+            <div class="flex">
+                <div class="card">
+                    <p>Teknologi adalah amanah dari Allah SWT. Kita harus menggunakannya dengan bijak dan sesuai adab
+                        Islami.</p>
+                </div>
+                <div class="card">
+                    <img src="assets/img1.png" alt="Ilustrasi Gadget" class="bounce" />
+                    <p class="bubble">Gadget itu amanah, bukan hiburan semata.</p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="card">
+                    <h3>Adab Digital yang Baik:</h3>
+                    <ul style="list-style-type: none;">
+                        <li>✅ Tidak menggunakan gadget saat waktu sholat</li>
+                        <li>✅ Menjauhi konten yang tidak bermanfaat</li>
+                        <li>✅ Berbagi ilmu yang bermanfaat</li>
+                        <li>✅ Mengucapkan salam di grup chat</li>
+                        <li>✅ Tidak menyebarkan berita bohong</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Jadwal Penggunaan Teknologi</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hari</th>
+                                <th>Aktivitas Digital</th>
+                                <th>Adab yang Dijaga</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Senin</td>
+                                <td>Belajar coding 30 menit</td>
+                                <td>Berdoa sebelum belajar</td>
+                            </tr>
+                            <tr>
+                                <td>Selasa</td>
+                                <td>Menonton video edukasi</td>
+                                <td>Meminta izin orang tua</td>
+                            </tr>
+                            <tr>
+                                <td>Rabu</td>
+                                <td>Membuat proyek digital</td>
+                                <td>Berbagi ilmu dengan teman</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="flex">
+                <button onclick="backToMenu(1)">⬅ Kembali ke Daftar Isi</button>
+                <button onclick="showBab(2)">💻 Bab 2: Apa Itu Coding?</button>
+            </div>
+        </section>
+
+
+        <!-- Bab 2 -->
+        <section id="bab2" class="hidden fade-in">
+            <h2>Bab 2: Apa Itu Coding?</h2>
+            <div class="flex">
+                <div class="card">
+                    <p>
+                        Coding adalah cara kita memberi instruksi kepada komputer untuk melakukan sesuatu. Seperti kita
+                        memberi perintah untuk melakukan kebaikan, coding juga harus digunakan untuk hal-hal yang
+                        bermanfaat.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="assets/img1.png" alt="Flowchart Coding" class="bounce" />
+                </div>
+            </div>
+
+            <div class="flex">
+
+
+                <div class="card">
+                    <h3>Mengapa Belajar Coding?</h3>
+                    <ul>
+                        <li>✅ Melatih logika dan pemecahan masalah</li>
+                        <li>✅ Mengembangkan kreativitas</li>
+                        <li>✅ Mempersiapkan diri untuk masa depan</li>
+                        <li>✅ Membuat aplikasi yang bermanfaat</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Coding dan Nilai Islami</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Langkah</th>
+                                <th>Tujuan</th>
+                                <th>Nilai Islami</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Perencanaan</td>
+                                <td>Menyusun algoritma</td>
+                                <td>Keteraturan dan ketelitian</td>
+                            </tr>
+                            <tr>
+                                <td>Penulisan kode</td>
+                                <td>Membuat program</td>
+                                <td>Kesabaran dan ketekunan</td>
+                            </tr>
+                            <tr>
+                                <td>Pengujian</td>
+                                <td>Mencari kesalahan</td>
+                                <td>Muhasabah (introspeksi)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="flex">
+
+                <div class="card">
+                    <h3>Contoh Flowchart Wudhu</h3>
+                    <img src="assets/img1.png" alt="Flowchart Wudhu" class="fade-in" />
+                </div>
+            </div>
+
+            <div class="flex">
+
+
+                <button onclick="showBab(1)">📿 Bab 1: Teknologi Itu Amanah</button>
+                <button onclick="backToMenu(2)">⬅ Kembali ke Daftar Isi</button>
+                <button onclick="showBab(3)">🎮 Bab 3: Belajar Scratch</button>
+            </div>
+
+
+
+        </section>
+
+
+
+        <!-- Bab 3 -->
+        <section id="bab3" class="hidden fade-in">
+            <h2>Bab 3: Belajar Scratch</h2>
+            <div class="flex">
+                <div class="card">
+                    <p>
+                        Dengan Scratch, kita bisa membuat animasi Islami, game dakwah, dan cerita anak sholeh. Scratch
+                        menggunakan blok-blok berwarna yang disusun seperti puzzle untuk membuat program.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="assets/img1.png" alt="Tampilan Scratch" class="bounce" />
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="card">
+                    <h3 style="color: #b34300;">Contoh Kode Scratch:</h3>
+                    <pre>
+                        ketika bendera diklik
+                        katakan "Assalamu'alaikum!" selama 2 detik
+                        mainkan suara "MasyaAllah"
+                    </pre>
+
+                    <h3 style="color: #b34300;">Keunggulan Scratch:</h3>
+                    <ul>
+                        <li>✓ Mudah dipelajari dengan antarmuka visual</li>
+                        <li>✓ Tidak perlu mengetik kode</li>
+                        <li>✓ Bisa membuat proyek yang menarik</li>
+                        <li>✓ Cocok untuk pemula</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: #b34300;">Desain Karakter</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <th>Salam</th>
+                                <th>Gerakan</th>
+                                <th>Suara</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ahmad</td>
+                                <td>Assalamu'alaikum</td>
+                                <td>Melambai</td>
+                                <td>Salam</td>
+                            </tr>
+                            <tr>
+                                <td>Fatimah</td>
+                                <td>Wa'alaikumsalam</td>
+                                <td>Mengangguk</td>
+                                <td>Jawab salam</td>
+                            </tr>
+                            <tr>
+                                <td>Ustadz</td>
+                                <td>Barakallah</td>
+                                <td>Mengajar</td>
+                                <td>Nasiha</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="flex">
+                <button onclick="showBab(2)">💻 Bab 2: Apa Itu Coding?</button>
+                <button onclick="backToMenu(3)">⬅ Kembali ke Daftar Isi</button>
+                <button onclick="showBab(4)">🐍 Bab 4: Python Dasar</button>
+            </div>
+
+
+
+
+        </section>
+
+
+
+        <!-- Bab 4 -->
+        <section id="bab4" class="hidden fade-in">
+            <h2>Bab 4: Python Dasar</h2>
+            <div class="flex">
+                <div class="card">
+                    <p>
+                        Python adalah bahasa coding yang sederhana dan kuat. Kita bisa membuat salam digital dan
+                        kalkulator adab. Python digunakan oleh banyak ilmuwan dan programmer profesional.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="assets/img1.png" alt="Ilustrasi Python" class="bounce" />
+                    <p class="bubble">Alhamdulillah, kode berjalan dengan baik!</p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="card">
+                    <h3 style="color: #6c2ba1;">Contoh Kode Python:</h3>
+                    <pre>
+                        name = input("Siapa namamu?")
+                        print("Assalamu'alaikum, " + name)
+                    </pre>
+
+                    <h3 style="color: #6c2ba1;">Keunggulan Python:</h3>
+                    <ul style="list-style-type: none;">
+                        <li>✓ Sintaks yang mudah dibaca</li>
+                        <li>✓ Banyak pustaka dan dukungan</li>
+                        <li>✓ Digunakan di berbagai bidang</li>
+                        <li>✓ Cocok untuk pemula dan ahli</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: #6c2ba1;">Tabel Input–Output</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Adab</th>
+                                <th>Nilai</th>
+                                <th>Output</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Salam</td>
+                                <td>10</td>
+                                <td>Excellent! MasyaAllah</td>
+                            </tr>
+                            <tr>
+                                <td>Berbagi</td>
+                                <td>8</td>
+                                <td>Good! Barakallah</td>
+                            </tr>
+                            <tr>
+                                <td>Membantu</td>
+                                <td>9</td>
+                                <td>Great! Jazakallah</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="flex">
+                <button onclick="showBab(3)">🎮 Bab 3: Belajar Scratch</button>
+                <button onclick="backToMenu(4)">⬅ Kembali ke Daftar Isi</button>
+                <button onclick="showBab(5)">🌟 Bab 5: Proyek Kreatif</button>
+            </div>
+
+        </section>
+
+
+
+        <!-- Bab 5 -->
+        <section id="bab5" class="hidden fade-in">
+            <h2>Bab 5: Proyek Kreatif</h2>
+            <div class="flex">
+                <div class="card">
+                    <p>
+                        Game Islami bisa menjadi media dakwah yang menyenangkan dan bermakna. Dengan menggabungkan
+                        pengetahuan coding dan nilai-nilai Islam, kita bisa membuat aplikasi yang bermanfaat.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="assets/img1.png" alt="Game Islami" class="bounce" />
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="card">
+                    <h3 style="color: #c16e00;">Contoh Blok Scratch:</h3>
+                    <pre>
+                        ketika sprite disentuh
+                        ubah skor dengan 1
+                        mainkan suara "MasyaAllah"
+                    </pre>
+
+                    <h3 style="color: #c16e00;">Ide Proyek Kreatif:</h3>
+                    <ul>
+                        <li>✓ Game menangkap pahala</li>
+                        <li>✓ Kuis adab Islami</li>
+                        <li>✓ Simulasi wudhu interaktif</li>
+                        <li>✓ Cerita interaktif tentang sahabat Nabi</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: #c16e00;">Desain Game</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Judul</th>
+                                <th>Karakter</th>
+                                <th>Misi</th>
+                                <th>Pesan Islami</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pahala Catcher</td>
+                                <td>Ahmad</td>
+                                <td>Menangkap pahala</td>
+                                <td>Berbuat baik</td>
+                            </tr>
+                            <tr>
+                                <td>Wudhu Master</td>
+                                <td>Fatimah</td>
+                                <td>Urutan wudhu</td>
+                                <td>Kebersihan</td>
+                            </tr>
+                            <tr>
+                                <td>Quran Quest</td>
+                                <td>Umar</td>
+                                <td>Hafalan surat</td>
+                                <td>Cinta Al-Quran</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+            <div class="flex">
+                <button onclick="showBab(4)">🐍 Bab 4: Python Dasar</button>
+                <button onclick="backToMenu(5)">⬅ Kembali ke Daftar Isi</button>
+                <button onclick="showBab(6)">🧠 Bab 6: Evaluasi & Refleksi</button>
+            </div>
+
+        </section>
+
+
+
+        <!-- Bab 6 -->
+        <section id="bab6" class="hidden fade-in">
+            <h2>Bab 6: Evaluasi & Refleksi</h2>
+
+            <div class="flex">
+                <div class="card">
+                    <p>
+                        Coding bukan hanya tentang teknologi. Ia adalah tentang proses, niat, dan amal. Setiap baris
+                        kode yang kita tulis dengan niat baik adalah ibadah.
+                        Mari kita refleksikan perjalanan belajar kita.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img1.png" alt="Refleksi" class="talking" />
+                    <p class="bubble">Apa yang sudah kamu pelajari hari ini?</p>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="card">
+                    <h3 style="color: #2d2d2d;">Pertanyaan Refleksi:</h3>
+                    <ol>
+                        <li>
+                            Apa yang paling menyenangkan dari belajar coding?<br />
+                            <textarea style="width: 100%; margin-top: 4px; padding: 6px;" placeholder="Tuliskan jawabanmu di sini…"></textarea>
+                        </li>
+                        <li>
+                            Bagaimana coding bisa membantu dakwah Islam?<br />
+                            <textarea style="width: 100%; margin-top: 4px; padding: 6px;" placeholder="Tuliskan jawabanmu di sini…"></textarea>
+                        </li>
+                        <li>
+                            Adab apa yang kamu terapkan saat menggunakan komputer?<br />
+                            <textarea style="width: 100%; margin-top: 4px; padding: 6px;" placeholder="Tuliskan jawabanmu di sini…"></textarea>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="card">
+                    <h3 style="color: #2d2d2d;">Rubrik Penilaian</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Aspek</th>
+                                <th>Skor</th>
+                                <th>Catatan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pemahaman Konsep</td>
+                                <td>___/10</td>
+                                <td>Memahami dasar coding</td>
+                            </tr>
+                            <tr>
+                                <td>Kreativitas</td>
+                                <td>___/10</td>
+                                <td>Ide proyek yang unik</td>
+                            </tr>
+                            <tr>
+                                <td>Adab Digital</td>
+                                <td>___/10</td>
+                                <td>Menerapkan nilai Islam</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+            <div class="flex">
+
+                <button onclick="showBab(5)">🌟 Bab 5: Proyek Kreatif</button>
+                <button onclick="backToMenu(6)">⬅ Kembali ke Daftar Isi</button>
+                <button onclick="showBab(7)">🎓 Bab 7: Showcase & Sertifikasi</button>
+            </div>
+
+        </section>
+
+
+        <section id="bab7" class="hidden fade-in">
+            <h2>Bab 7: Showcase & Sertifikasi</h2>
+
+            <div class="flex">
+                <div class="card">
+                    <p>
+                        Saatnya menunjukkan karya terbaikmu. Coding Islami adalah bentuk dakwah digital. Dengan
+                        menampilkan karyamu, kamu bisa menginspirasi teman-teman untuk belajar coding dan menggunakannya
+                        untuk kebaikan.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/img1.png" alt="Showcase" class="slide-up" />
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="card">
+                    <h3 style="color: #a52727;">Persiapan Showcase:</h3>
+                    <ul class="checklist">
+                        <li>✓ Siapkan proyek terbaikmu</li>
+                        <li>✓ Latih cara mempresentasikan</li>
+                        <li>✓ Jelaskan nilai Islami dalam karyamu</li>
+                        <li>✓ Berikan demo yang menarik</li>
+                    </ul>
+
+                    <h3>Sertifikasi yang Akan Didapat:</h3>
+                    <div class="certs">
+                        <div class="cert yellow">CIPTA STAR<br /><small>Creative Islamic Programming</small></div>
+                        <div class="cert green">Code Muslim<br /><small>Programming for Ummah</small></div>
+                        <div class="cert blue">Adab Digital<br /><small>Etika Teknologi Islami</small></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Persiapan Presentasi</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <th>Judul Proyek</th>
+                                <th>Nilai Islami</th>
+                                <th>Siap?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ahmad</td>
+                                <td>Wudhu Master</td>
+                                <td>Kebersihan</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Fatimah</td>
+                                <td>Doa Harian</td>
+                                <td>Dzikr</td>
+                                <td>✓</td>
+                            </tr>
+                            <tr>
+                                <td>Umar</td>
+                                <td>Quran Quiz</td>
+                                <td>Ilmu</td>
+                                <td>✓</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+            <div class="flex">
+                <button onclick="showBab(6)">🧠 Bab 6: Evaluasi & Refleksi</button>
+                <button onclick="backToMenu(7)">⬅ Kembali ke Daftar Isi</button>
+                <button onclick="showBab(8)">📎 Bab 8: Penutup & Lampiran</button>
+            </div>
+
+        </section>
+
+
+        <section id="bab8" class="hidden fade-in">
+            <h2>Bab 8: Penutup & Lampiran</h2>
+
+            <div class="flex">
+                <div class="card">
+                    <h3 class="highlight">Doa Penutup</h3>
+                    <blockquote class="quote">
+                        "Ya Allah, jadikanlah ilmu ini sebagai cahaya yang membimbing kami di dunia dan akhirat."
+                    </blockquote>
+                    <p>
+                        Alhamdulillah, kita telah menyelesaikan perjalanan belajar coding dengan nilai-nilai Islami.
+                        Semoga ilmu yang kita dapatkan bermanfaat dan menjadi amal jariyah. Teruslah belajar dan berbagi
+                        kebaikan melalui teknologi.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Referensi</h3>
+                    <ul class="references">
+                        <li><a href="https://scratch.mit.edu" target="_blank">Scratch Foundation</a></li>
+                        <li><a href="https://python.org/about/gettingstarted" target="_blank">Python for Kids</a></li>
+                        <li><a href="https://literasidigital.id" target="_blank">LiterasiDigital.id</a></li>
+                        <li><a href="https://kurikulum.kemdikbud.go.id" target="_blank">Kurikulum Merdeka</a></li>
+                    </ul>
+                    <div class="qr-section">
+                        <img src="qr-worksheet.png" alt="QR Worksheet" />
+                        <small>Scan untuk worksheet online</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="card">
+                    <h3 class="highlight">Worksheet Tambahan</h3>
+                    <ul class="worksheet-list">
+                        <li><span>📒</span> Jurnal Anak Sholeh<br><small>Catatan harian belajar coding</small></li>
+                        <li><span>📄</span> Flowchart Wudhu<br><small>Latihan membuat diagram alir</small></li>
+                        <li><span>👥</span> Evaluasi Teman Sebaya<br><small>Formulir feedback proyek</small></li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="highlight">Kata-kata Motivasi</h3>
+                    <blockquote class="quote yellow">
+                        "Teknologi adalah alat, nilai-nilai Islami adalah kompasnya."<br>
+                        <small>– Darunnajah Merah Putih</small>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="flex">
+                <button onclick="showBab(7)">🎓 Bab 7: Showcase & Sertifikasi</button>
+                <button onclick="backToMenu(8)">⬅ Kembali ke Daftar Isi</button>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
